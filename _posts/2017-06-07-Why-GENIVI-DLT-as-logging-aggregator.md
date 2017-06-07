@@ -15,7 +15,7 @@ You can easily connect the hardware to the network and once you know the ip addr
 
 The viewer has advanced filtering capabilities. You can filter for your own application, for a specific part of it and free text too. The docs can be exported in one place and viewed in the viewer on a different computer. DLT makes it fairly easy to aggregate logs from other sources like journald, stdout/err, there are bindings for Qt/QML, C and C++.
 
-We might want to research a bit if it would be worth to write a DLT wrapper gor glib too.x
+We might want to research a bit if it would be worth to write a DLT wrapper gor glib too.
 
 ## Links
 

@@ -4,7 +4,7 @@ Source code repo for the pelux.io website
 
 ## How to build
 
-This website uses [jekyl](https://jekyllrb.com/) to build static HTML. Those are the steps to build it:
+This website uses [jekyll](https://jekyllrb.com/) to build static HTML. Those are the steps to build it:
 
     gem install jekyll bundler
     # git clone <path to git> pelux.io

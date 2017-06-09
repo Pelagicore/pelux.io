@@ -13,6 +13,14 @@ This website uses [jekyll](https://jekyllrb.com/) to build static HTML. Those ar
     
 This will compile the markdown code and start a server at [http://localhost:4000/](http://localhost:4000/) which you can then open in your browser.
 
+## Governance
+
+This repository is maintained and governed by Pelagicore AB.
+
+Maintainer:
+
+- Richard Pannek <richard.pannek@pelagicore.com>
+
 ## License and Copyright
 
 Copyright &copy; Pelagicore AB 2017

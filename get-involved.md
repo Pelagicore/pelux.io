@@ -9,7 +9,13 @@ You can start by getting in touch with us on IRC;
 
 ## IRC
 
-The best way is to join our IRC chanel #PELUX on freenode, where most of the developers hang out.
+The best way is to join our IRC channel #PELUX on freenode, where most of the developers hang out.
+You can check out the [IRC logs](http://li1649-40.members.linode.com:5000) and join the
+channel in a web browser:
+
+[https://kiwiirc.com/client/irc.freenode.net/?channel=#PELUX](https://kiwiirc.com/client/irc.freenode.net/?channel=#PELUX)
+
+or with your IRC client:
 
 [irc://irc.freenode.net:6667/PELUX](irc://irc.freenode.net:6667/PELUX)
 

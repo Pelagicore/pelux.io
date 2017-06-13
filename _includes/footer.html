@@ -17,6 +17,9 @@
             {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
+            {% if site.repo %}
+            <li>{{ site.repo }}</li>
+            {% endif %}
         </ul>
       </div>
 

@@ -3,6 +3,7 @@ layout: post
 title:  "How to get journald in DLT?"
 date:   2017-05-29 12:00:00 +0200
 categories: genivi
+author: Gordan Markuš
 ---
 As we have decided on using DLT as a logging mechanism for the PELUX Suite, we had to be sure if it supports integration with systemd's journal, how to set it up and if there are any pitfalls. 
 

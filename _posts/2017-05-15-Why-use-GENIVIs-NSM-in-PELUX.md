@@ -3,6 +3,7 @@ layout: post
 title:  "Why use GENIVI's Node State Manager in PELUX"
 date:   2017-05-15 12:00:00 +0200
 categories: genivi
+author: Richard Pannek
 ---
 
 Lately we've been thinking about if we could get away without using NSM and instead just use systemd targets on PELUX. I tried to collect the right data to get to a decision, so here it is.

@@ -3,6 +3,7 @@ layout: post
 title:  "Why GENIVI DLT as a logging aggregator?"
 date:   2017-06-07 14:48:00 +0200
 categories: genivi
+author: Richard Pannek
 ---
 
 We decided on DLT as the logging aggregator, this ended up in the architecture document:

@@ -24,4 +24,4 @@ We might want to research a bit if it would be worth to write a DLT wrapper gor 
 - [dlt-daemon](https://github.com/GENIVI/dlt-daemon)
 - [dlt-viewer](https://github.com/GENIVI/dlt-viewer)
 - [ivi-logging](https://github.com/Pelagicore/ivi-logging)
-- [Qt giniviextras](http://code.qt.io/cgit/qt/qtivi.git/tree/src/geniviextras)
+- [QtGeniviExtras](https://doc.qt.io/QtGENIVIExtras/)

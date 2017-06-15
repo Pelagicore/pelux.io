@@ -5,11 +5,11 @@ permalink: /get-involved/
 ---
 
 If you're interested getting involved in the developement of PELUX, there are many ways to help.
-You can start by getting in touch with us on IRC;
+You can start by getting in touch with us on IRC.
 
 ## IRC
 
-The best way is to join our IRC channel #PELUX on freenode, where most of the developers hang out.
+Join our IRC channel #PELUX on freenode, where most of the developers hang out.
 You can check out the [IRC logs](http://li1649-40.members.linode.com:5000) and join the
 channel in a web browser:
 
@@ -19,14 +19,14 @@ or with your IRC client:
 
 [irc://irc.freenode.net:6667/PELUX](irc://irc.freenode.net:6667/PELUX)
 
-## Pull Requests
+## Getting to the Code
 
-If you'd like to jump in to the code here are some links to repositories connected to PELUX
+If you'd like to jump in to the code here are some links to repositories connected to PELUX. Feel free to hack on these and send us your [pull requests](https://help.github.com/articles/about-pull-requests/).
 
 <table>
     <thead>
         <tr>
-            <th>Name and link</th>
+            <th>Repository</th>
             <th>Description</th>
         </tr>
     </thead>

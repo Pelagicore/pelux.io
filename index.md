@@ -5,7 +5,7 @@
 layout: home
 ---
 
-PELUX is a Linux based platform for your automotive project, it's based on [Yocto](http://yoctoproject.org/) band offers an improved developer experience and a quicker way to get started with your project all the way from from pixel to silicon.
+PELUX is a Linux based platform for your automotive project, it's based on [Yocto](http://yoctoproject.org/) band offers an improved developer experience and a quicker way to get started with your project all the way from pixel to silicon.
 
 ![PELUX Boxes](assets/imgs/pelux-boxes.png)
 

@@ -5,7 +5,7 @@ Source code repo for the pelux.io website
 ## How to build
 
 This website uses [jekyll](https://jekyllrb.com/) to build static HTML. These are the steps to build the web site locally:
-*NB: You'll want to have jekyll and bundler installed on your system first.
+*NB: You'll want to have jekyll and bundler installed on your system first.*
 
     git clone <git repo url>
     cd pelux.io

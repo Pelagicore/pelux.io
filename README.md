@@ -2,17 +2,24 @@
 
 Source code repo for the pelux.io website
 
-## How to build
+## How to build the web site locally
 
-This website uses [jekyll](https://jekyllrb.com/) to build static HTML. These are the steps to build the web site locally:
-*NB: You'll want to have jekyll and bundler installed on your system first.*
+This website uses [jekyll](https://jekyllrb.com/) to build static
+HTML. You'll need some dependencies to build the site locally. These
+dependencies are best to pull from upstream since they rely on
+versions that are known to work together. Install the gems jekyll
+bundler and minima this way;
+
+    sudo gem install jekyll bundler minima
+
+These are the steps to build the web site locally:
 
     git clone <git repo url>
     cd pelux.io
     bundle install
     bundle exec jekyll serve
     
-This will compile the markdown code and start a server at [http://localhost:4000/](http://localhost:4000/) which you can then open in your browser.
+This will compile the markdown code and start a server at [http://127.0.0.1:4000/](http://127.0.0.1:4000/) which you can then open in your browser.
 
 ## Governance
 

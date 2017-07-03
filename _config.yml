@@ -30,3 +30,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor/
+  - Jenkinsfile
+  - README.md

@@ -10,6 +10,7 @@ This website uses [jekyll](https://jekyllrb.com/) to build static HTML. You'll n
 
 These are the steps to build the web site locally:
 
+    apt install ruby-bundler
     git clone <git repo url>
     cd pelux.io
     bundle install

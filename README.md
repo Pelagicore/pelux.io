@@ -6,7 +6,7 @@ Source code repo for the pelux.io website
 
 This website uses [jekyll](https://jekyllrb.com/) to build static HTML. Those are the steps to build it:
 
-    apt install ruby-bundler
+    sudo apt install ruby ruby-dev ruby-bundler
     git clone <git repo url>
     cd pelux.io
     bundle install

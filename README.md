@@ -6,10 +6,6 @@ Source code repo for the pelux.io website
 
 This website uses [jekyll](https://jekyllrb.com/) to build static HTML. You'll need some dependencies to build the site locally. These dependencies are best to pull from upstream since they rely on versions that are known to work together. Install the gems jekyll, bundler, and minima this way;
 
-    sudo gem install jekyll bundler minima
-
-These are the steps to build the web site locally:
-
     sudo apt install ruby ruby-dev ruby-bundler
     git clone <git repo url>
     cd pelux.io

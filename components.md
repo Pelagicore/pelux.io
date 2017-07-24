@@ -6,7 +6,7 @@ permalink: /components/
 
 ## Qt Auto Suite
 
-[Qt Automotive Suite](https://www.qt.io/qt-automotive-suite/) is part of the Qt project. There especially the [QtApplicationManager](https://doc.qt.io/QtApplicationManager/) is relevant and the [Neptune UI](http://code.qt.io/cgit/qt-apps/neptune-ui.git/) which is a open source sample UI to get you started.
+[Qt Automotive Suite](https://www.qt.io/qt-automotive-suite/) is part of the Qt Project. There especially the [QtApplicationManager](https://doc.qt.io/QtApplicationManager/) and the [QtIvi](https://doc.qt.io/QtIVI/index.html) framework are relevant, as well as the [Neptune UI](https://doc.qt.io/NeptuneUI/index.html) which is an open source sample UI to get you started.
 
 ## PELUX Yocto layers
 

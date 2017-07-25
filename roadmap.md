@@ -12,22 +12,22 @@ This includes the creation of end user apps, new platform functions or target im
 
 ## Milestones
 
-The PELUX project targets milestone releases twice per year. Our first target is September 2017.
+The PELUX project targets to provide biannual releases. The first target being September 2017.
 
 ###PELUX 1.0 [September 2017]
 - Derived from poky
-- Support for Raspberry PI 3 and intel NUC
+- Support for Raspberry PI 3 and Intel NUC
 - Platform Development Kit (PDK)
 - Software Development Kit (SDK)
 - Application Development Kit (ADK)
-- 2 subversions: with and without Qt auto
+- 2 sub versions: with and without Qt auto
 - DLT integration
 - BT integration
 - PDK, SDK and ADK installer
-- CI available to all users
+- Publicly accessible CI
 
 ###PELUX 1.1 [End 2017/Beginning 2018]
-Content needs to be discussed but we know we will have at least a focus on:
+The content is yet to be discussed. Tentatively the topics in focus will be:
 
 - Audio manager
 - Device manager

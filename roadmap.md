@@ -31,4 +31,3 @@ The content is yet to be discussed. Tentatively the topics in focus will be:
 
 - Audio manager
 - Device manager
-- SDL integration

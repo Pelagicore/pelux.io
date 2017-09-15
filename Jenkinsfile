@@ -8,12 +8,12 @@ pipeline {
             steps {
                 // Delete old files
                 sh 'rm -rf .[^.] .??* *'
-                
+
                 // Checkout the git repository and refspec pointed to by jenkins
                 checkout scm
             }
         }
-        
+
         // Configure the software
         stage('Configure') {
             steps {
@@ -42,6 +42,6 @@ pipeline {
                 // Store the artifacts of the entire build
                 archive "_site/**/*"
             }
-        }        
-    }   
+        }
+    }
 }

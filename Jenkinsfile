@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        node { label 'Jekyl' }
+        node { label 'Jekyll' }
     }
 
     stages {
@@ -8,12 +8,14 @@ pipeline {
             steps {
                 // Delete old files
                 sh 'rm -rf .[^.] .??* *'
-                
+
                 // Checkout the git repository and refspec pointed to by jenkins
                 checkout scm
+
+                echo 'Branch is...' + env.BRANCH_NAME
             }
         }
-        
+
         // Configure the software
         stage('Configure') {
             steps {
@@ -42,6 +44,6 @@ pipeline {
                 // Store the artifacts of the entire build
                 archive "_site/**/*"
             }
-        }        
-    }   
+        }
+    }
 }

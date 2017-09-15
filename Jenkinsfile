@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        node { label 'Jekyl' }
+        node { label 'Jekyll' }
     }
 
     stages {
@@ -11,6 +11,8 @@ pipeline {
 
                 // Checkout the git repository and refspec pointed to by jenkins
                 checkout scm
+
+                echo 'Branch is...' + env.BRANCH_NAME
             }
         }
 

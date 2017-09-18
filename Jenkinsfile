@@ -11,8 +11,6 @@ pipeline {
 
                 // Checkout the git repository and refspec pointed to by jenkins
                 checkout scm
-
-                echo 'Branch is...' + env.BRANCH_NAME
             }
         }
 
@@ -38,6 +36,19 @@ pipeline {
         //        sh "bundle exec htmlproofer _site"
         //    }
         // }
+
+        // This stage assumes that /var/www is mounted/linked/whatever to
+        // where one wants to deploy the site.
+        stage('Deploy') {
+            when {
+                branch 'master'
+            }
+
+            steps {
+                sh 'rm -rf /var/www/pelux.io'
+                sh 'cp -R _site /var/www/pelux.io'
+            }
+        }
 
         stage('Archive') {
             steps {

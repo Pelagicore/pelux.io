@@ -46,7 +46,8 @@ pipeline {
 
             steps {
                 sh 'rm -rf /var/www/pelux.io'
-                sh 'cp -R _site /var/www/pelux.io'
+                sh 'cp -R _site /var/www/'
+                sh 'mv /var/www/_site /var/www/pelux.io'
             }
         }
 

@@ -14,7 +14,7 @@ This includes the creation of end user apps, new platform functions or target im
 
 The PELUX project targets to provide biannual releases. The first target being September 2017.
 
-### PELUX 1.0 [September 2017]
+### PELUX 1.0 [<del>September</del> <ins>October</ins>  2017]
  - Derived from poky
  - Support for [Raspberry PI 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) and [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
  - Platform Development Kit (PDK)

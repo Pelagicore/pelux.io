@@ -16,7 +16,7 @@ well as extensive documentation.
 
 ## Milestones
 
-The PELUX project targets to provide biannual releases. The first target being September 2017.
+The PELUX project aims to provide biannual releases. The first target being in Autumn 2017.
 
 ### PELUX 1.0 [<del>September</del> <ins>November</ins> 2017]
  - Derived from poky
@@ -27,11 +27,13 @@ The PELUX project targets to provide biannual releases. The first target being S
  - 2 flavours: with and without [Qt Automotive Suite](https://www1.qt.io/qt-automotive-suite/)
  - DLT integration
  - BT integration
- - <del>PDK, SDK and ADK installer</del>
- - [Publicly accessible CI](http://pelux.io/jenkins/)
-
-### PELUX 1.1 [Beginning 2018]
-The content is yet to be discussed. Tentatively the topics in focus will be:
-
+ - PDK, SDK and ADK installer
+ - Publicly accessible CI
+ 
+### PELUX 1.1 [End 2017/Beginning 2018]
+Content of this release is under discussion. Tentatively the topics in focus will be:
 - Audio manager
 - Device manager
+- ARP Board support
+- Experimental support for QEMU
+- Experimental support for TX 2

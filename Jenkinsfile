@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        node { label 'master' }
+        node { label 'Jekyll' }
     }
 
     stages {
@@ -36,20 +36,6 @@ pipeline {
         //        sh "bundle exec htmlproofer _site"
         //    }
         // }
-
-        // This stage assumes that /var/www is mounted/linked/whatever to
-        // where one wants to deploy the site on the node that runs this job
-        stage('Deploy') {
-            when {
-                branch 'master'
-            }
-
-            steps {
-                sh 'rm -rf /var/www/pelux.io'
-                sh 'cp -R _site /var/www/'
-                sh 'mv /var/www/_site /var/www/pelux.io'
-            }
-        }
 
         stage('Archive') {
             steps {

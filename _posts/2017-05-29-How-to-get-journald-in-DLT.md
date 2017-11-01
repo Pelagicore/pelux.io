@@ -7,7 +7,7 @@ author: Gordan Markuš
 ---
 As we have decided on using DLT as a logging mechanism for the PELUX Suite, we had to be sure if it supports integration with systemd's journal, how to set it up and if there are any pitfalls. 
 
-## Usecases
+## Use cases
 
 1. A Platform, Service and App developer walk in to a bar and want to see a PELUX based device's logs in a centralized place.
 2. A Platform developer would like to observe the kernel messages and which services are failing on startup. After understanding which service is failing he would like to filter the logs of that service.

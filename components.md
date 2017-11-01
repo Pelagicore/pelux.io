@@ -4,9 +4,21 @@ title: Components
 permalink: /components/
 ---
 
-## Qt Auto Suite
+## Qt Automotive Suite
 
-[Qt Automotive Suite](https://www.qt.io/qt-automotive-suite/) is part of the Qt Project. There especially the [QtApplicationManager](https://doc.qt.io/QtApplicationManager/) and the [QtIvi](https://doc.qt.io/QtIVI/index.html) framework are relevant, as well as the [Neptune UI](https://doc.qt.io/NeptuneUI/index.html) which is an open source sample UI to get you started.
+[Qt Automotive Suite](https://www.qt.io/qt-automotive-suite/) is part of the Qt Project. It is a collection of software components and tools to enable development of In-Vehicle-Infotainment (IVI) systems. The vital components used in PELUX can be found below.
+
+### QtApplicationManager
+
+The [QtApplicationManager](https://doc.qt.io/QtApplicationManager/) provides the infrastructure for modern multi-process IVI architectures using Wayland composition and input event handling, while at the same time having the option to scale down to single-process setups for mid-range product variants, or for convenient native development on host platforms without Wayland. The Qt Application Manager supports you with app lifecylce management and isolating and securing apps.
+
+### QtIVI
+
+[QtIVI](https://doc.qt.io/QtIVI/) provides additional APIs commonly needed in automotive IVI or cluster systems. The APIs serve as a common interface between the QML frontend and middleware services. Since those APIs however differ slightly from project to project, a particular emphasis is put on easy extensibility/adaptability. QtIVI supports development by providing infrastructure for having multiple backends (e.g. simulation and the real hardware). In addition, while using standard Qt logging methods, a GENIVI DLT adapter is used in case the DLT logging backend is present on the system. 
+
+### Neptune Reference Implementation
+
+[NeptuneUI](https://doc.qt.io/NeptuneUI) is the Qt Automotive Suite reference UI implementation designed for an IVI system.
 
 ## PELUX Yocto layers
 

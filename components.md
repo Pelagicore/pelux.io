@@ -22,7 +22,22 @@ The [QtApplicationManager](https://doc.qt.io/QtApplicationManager/) provides the
 
 ## PELUX Yocto layers
 
-[meta-pelux](https://github.com/pelagicore/meta-pelux) which is the base platform and the overall [pelux-manifests](https://github.com/Pelagicore/pelux-manifests) to get you started.
+The entry point to the PELUX Yocto/OE build system is the [pelux-manifests](https://github.com/Pelagicore/pelux-manifests) repository. It contains the information on the layers that are used for different flavours of the project build. 
+
+OSS layers:
+
+* [poky](http://git.yoctoproject.org/cgit.cgi/poky)
+* [meta-openembedded](http://git.openembedded.org/meta-openembedded/)
+* [meta-ivi](https://github.com/GENIVI/meta-ivi)
+* [meta-virtualization](https://git.yoctoproject.org/cgit/cgit.cgi/meta-virtualization/)
+* [meta-qt5](http://code.qt.io/cgit/yocto/meta-qt5.git/)
+* [meta-boot2qt](http://code.qt.io/cgit/yocto/meta-boot2qt.git/)
+
+Layers maintained by the PELUX project:
+
+* [meta-pelux](https://github.com/pelagicore/meta-pelux) contains the base platform and the PELUX image recipes.
+* [meta-bistro](https://github.com/pelagicore/meta-bistro) adds IVI specific components and additions to relevant OSS components.
+* [meta-template](https://github.com/pelagicore/meta-template) conatins template recipes and components that can be used as examples when starting your own R&D work. 
 
 ## Software Factory
 

@@ -4,7 +4,7 @@ title: Get involved
 permalink: /get-involved/
 ---
 
-If you're interested getting involved in the developement of PELUX, there are many ways to help.
+If you're interested in getting involved in the PELUX development, there are many ways to help.
 You can start by getting in touch with us on IRC.
 
 ## IRC
@@ -33,26 +33,18 @@ If you'd like to jump in to the code here are some links to repositories connect
     <tbody>
         <tr>
             <td>
-                <a href="https://github.com/Pelagicore/meta-pelux">meta-pelux</a>
-            </td>
-            <td>
-                Yocto layer providing "core-image-pelux"
-            </td>
-        </tr>
-        <tr>
-            <td>
                 <a href="https://github.com/Pelagicore/pelux-manifests">PELUX baseline manifests</a>
             </td>
             <td>
-                A set of manifests that can be used to build variants of PELUX 
+                The entry point to the PELUX build system. 
             </td>
         </tr>
-        <tr>
+	<tr>
             <td>
-                <a href="https://github.com/Pelagicore/meta-pelux-bsp-intel">meta-pelux-intel-bsp</a>
+                <a href="https://github.com/Pelagicore/meta-pelux">meta-pelux</a>
             </td>
             <td>
-                Yocto layer adding configurations required by the PELUX Intel reference
+                Yocto layer providing PELUX images and the distro description. 
             </td>
         </tr>
         <tr>
@@ -60,7 +52,7 @@ If you'd like to jump in to the code here are some links to repositories connect
                 <a href="https://github.com/Pelagicore/software-factory">software-factory</a>
             </td>
             <td>
-                PELUX Software Factory documentation
+                PELUX Software Factory documentation repository.
             </td>
         </tr>
     </tbody>

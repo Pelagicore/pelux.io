@@ -4,7 +4,8 @@ Source code repo for the pelux.io website
 
 ## How to build
 
-This website uses [jekyll](https://jekyllrb.com/) to build static HTML. Those are the steps to build it:
+This website uses [jekyll](https://jekyllrb.com/) to build static HTML. Those
+are the steps to build it:
 
     sudo apt install ruby ruby-dev ruby-bundler zlib1g-dev
     git clone <git repo url>
@@ -12,9 +13,12 @@ This website uses [jekyll](https://jekyllrb.com/) to build static HTML. Those ar
     bundle install
     bundle exec jekyll serve
 
-This will compile the markdown code and start a server at [http://localhost:4000/](http://localhost:4000/) which you can then open in your browser.
+This will compile the markdown code and start a server at
+[http://localhost:4000/](http://localhost:4000/) which you can then open in your
+browser.
 
-If you get errors when building native extensions with bundle, make sure you have the necessary libraries installed.
+If you get errors when building native extensions with bundle, make sure you
+have the necessary libraries installed.
 
 ## Governance
 

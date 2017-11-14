@@ -21,7 +21,9 @@ or with your IRC client:
 
 ## Getting to the Code
 
-If you'd like to jump in to the code here are some links to repositories connected to PELUX. Feel free to hack on these and send us your [pull requests](https://help.github.com/articles/about-pull-requests/).
+If you'd like to jump in to the code here are some links to repositories
+connected to PELUX. Feel free to hack on these and send us your [pull
+requests](https://help.github.com/articles/about-pull-requests/).
 
 <table>
     <thead>
@@ -36,7 +38,7 @@ If you'd like to jump in to the code here are some links to repositories connect
                 <a href="https://github.com/Pelagicore/pelux-manifests">PELUX baseline manifests</a>
             </td>
             <td>
-                The entry point to the PELUX build system. 
+                The entry point to the PELUX build system.
             </td>
         </tr>
 	<tr>
@@ -44,7 +46,7 @@ If you'd like to jump in to the code here are some links to repositories connect
                 <a href="https://github.com/Pelagicore/meta-pelux">meta-pelux</a>
             </td>
             <td>
-                Yocto layer providing PELUX images and the distro description. 
+                Yocto layer providing PELUX images and the distro description.
             </td>
         </tr>
         <tr>

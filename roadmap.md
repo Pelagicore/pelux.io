@@ -18,7 +18,7 @@ well as extensive documentation.
 
 The PELUX project aims to provide biannual releases. The first target being in Autumn 2017.
 
-### PELUX 1.0 [<del>September</del> <ins>November</ins> 2017]
+### PELUX 1.0 [<del>September</del> <ins>December</ins> 2017]
  - Derived from poky
  - Support for [Raspberry PI 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) and [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
  - Platform Development Kit (PDK)
@@ -29,7 +29,7 @@ The PELUX project aims to provide biannual releases. The first target being in A
  - BT integration
  - PDK, SDK and ADK installer
  - Publicly accessible CI
- 
+
 ### PELUX 1.1 [End 2017/Beginning 2018]
 Content of this release is under discussion. Tentatively the topics in focus will be:
 - Audio manager

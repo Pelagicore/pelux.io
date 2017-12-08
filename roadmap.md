@@ -27,10 +27,10 @@ The PELUX project aims to provide biannual releases. The first target being in A
  - 2 flavours: with and without [Qt Automotive Suite](https://www1.qt.io/qt-automotive-suite/)
  - DLT integration
  - BT integration
- - PDK, SDK and ADK installer
+ - <del>PDK, SDK and ADK installer</del>
  - Publicly accessible CI
 
-### PELUX 1.1 [End 2017/Beginning 2018]
+### PELUX 1.1 [Spring 2018]
 Content of this release is under discussion. Tentatively the topics in focus will be:
 - Audio manager
 - Device manager

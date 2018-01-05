@@ -20,7 +20,7 @@ or with your IRC client:
 
 ### IRC Logs
 
-The IRC logs are hosted at: [/irclogs/](/irclogs/)
+The IRC logs are hosted at: [/irclogs/](http://pelux.io/irclogs/)
 
 ## Getting to the Code
 

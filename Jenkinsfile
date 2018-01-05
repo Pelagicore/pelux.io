@@ -29,13 +29,11 @@ pipeline {
             }
         }
 
-        // Dont't run tests untill we have moved the IRC logs
-        // because the build server can't reach it and fails for now.
-        // stage("Test") {
-        //    steps {
-        //        sh "bundle exec htmlproofer _site"
-        //    }
-        // }
+        stage("Test") {
+           steps {
+               sh "bundle exec htmlproofer _site"
+           }
+        }
 
         stage('Archive') {
             steps {

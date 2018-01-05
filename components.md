@@ -66,7 +66,7 @@ Layers maintained by the PELUX project:
 ## Software Factory
 
 The [Software Factory
-documentation](https://pelux.io/software-factory/) contains most of
+documentation](//pelux.io/software-factory/) contains most of
 the documentation around how to use PELUX and how to set up a new project.
 
 ## Software Container

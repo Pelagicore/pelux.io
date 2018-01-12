@@ -31,6 +31,7 @@ The PELUX project aims to provide biannual releases. The first target being in A
  - Publicly accessible CI
 
 ### PELUX 1.1 [Spring 2018]
+=======
 Content of this release is under discussion. Tentatively the topics in focus will be:
 - Audio manager
 - Device manager

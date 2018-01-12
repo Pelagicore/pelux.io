@@ -16,25 +16,16 @@ well as extensive documentation.
 
 ## Milestones
 
-The PELUX project aims to provide biannual releases. The first target being in Autumn 2017.
-
-### PELUX 1.0 [<del>September 2017</del><ins>January 2018</ins>]
- - Derived from poky
- - Support for [Raspberry PI 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) and [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
- - Platform Development Kit (PDK)
- - Software Development Kit (SDK)
- - <del>Application Development Kit (ADK)</del>
- - 2 flavours: with and without [Qt Automotive Suite](https://www1.qt.io/qt-automotive-suite/)
- - DLT integration
- - BT integration
- - <del>PDK, SDK and ADK installer</del>
- - Publicly accessible CI
+The PELUX project aims to provide biannual releases. The first release was done
+in January 2018. For already released versions, see the [downloads](/downloads)
+page.
 
 ### PELUX 1.1 [Spring 2018]
-=======
 Content of this release is under discussion. Tentatively the topics in focus will be:
-- Audio manager
-- Device manager
-- ARP Board support
 - Experimental support for QEMU
 - Experimental support for TX 2
+
+### PELUX 2.0 [Later 2018]
+- ARP Board support
+- Application Development Kit (ADK)
+- PDK, SDK and ADK installer

@@ -16,7 +16,7 @@ As of 2018-01-12, PELUX 1.0 has been released! The docs can be found
  - 2 flavours: with and without [Qt Automotive Suite](https://www1.qt.io/qt-automotive-suite/)
  - DLT integration
  - BT integration
- - Publicly accessible CI
+ - [Publicly accessible](//pelux.io/jenkins/) CI
 
 ## Metadata
 * Version number: 1.0

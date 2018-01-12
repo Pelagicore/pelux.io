@@ -19,9 +19,9 @@ As of 2018-01-12, PELUX 1.0 has been released! The docs can be found
  - Publicly accessible CI
 
 ## Metadata
-Version number: 1.0
-Yocto release: morty and pyro
-Qt version: 5.9.3
+* Version number: 1.0
+* Yocto release: morty and pyro
+* Qt version: 5.9.3
 
 ## Changelog
 This is the initial release of PELUX.

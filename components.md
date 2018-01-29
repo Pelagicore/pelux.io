@@ -49,6 +49,7 @@ OSS layers:
 * [poky](http://git.yoctoproject.org/cgit.cgi/poky)
 * [meta-openembedded](http://git.openembedded.org/meta-openembedded/)
 * [meta-ivi](https://github.com/GENIVI/meta-ivi)
+* [meta-swupdate](https://github.com/sbabic/meta-swupdate)
 * [meta-virtualization](https://git.yoctoproject.org/cgit/cgit.cgi/meta-virtualization/)
 * [meta-qt5](http://code.qt.io/cgit/yocto/meta-qt5.git/)
 * [meta-boot2qt](http://code.qt.io/cgit/yocto/meta-boot2qt.git/)

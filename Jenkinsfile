@@ -1,6 +1,9 @@
 pipeline {
     agent {
-        node { label 'Jekyll' }
+        dockerfile {
+            /* There are resolution issues on the Jenkins server for pelux.io */
+            args "--add-host=pelux.io:${env.JENKINS_IP}"
+        }
     }
 
     stages {

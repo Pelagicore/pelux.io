@@ -34,4 +34,5 @@ exclude:
   - Gemfile.lock
   - vendor/
   - Jenkinsfile
+  - Dockerfile
   - README.md

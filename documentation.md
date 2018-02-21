@@ -1,11 +1,7 @@
 ---
 layout: page
-title: Documentation
-permalink: /docs/
+title: Docs
+external-link: //pelux.io/software-factory
 ---
 
-The latest PELUX documentation is baked in into the [Software Factory
-documentation](//pelux.io/software-factory/).
-
-For documentation regarding a specific release of PELUX, see the
-[downloads](/downloads) page.
+This content will never be shown, the page is just an external link

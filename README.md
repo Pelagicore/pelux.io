@@ -2,6 +2,13 @@
 
 Source code repo for the pelux.io website
 
+## Guidelines
+
+Don't use lvl1 headings (\# Heading) in pages, since the css expects the page
+title to be h1 but styles it with an id and not a h1 class. That causes any
+other h1 elements to be smaller than h2 elements. It also makes sense to only
+have one main heading on a page, so stick with lvl2 headings and below.
+
 ## How to build
 
 This website uses [jekyll](https://jekyllrb.com/) to build static HTML. Those

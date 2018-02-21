@@ -4,11 +4,11 @@ title: Downloads
 permalink: /downloads/
 ---
 
-# PELUX 1.0
+## PELUX 1.0
 As of 2018-01-12, PELUX 1.0 has been released! The docs can be found
 [here](//pelux.io/software-factory/v1.0/).
 
-## Main features
+### Main features
  - Derived from poky
  - Support for [Raspberry PI 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) and [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
  - Platform Development Kit (PDK)
@@ -18,15 +18,15 @@ As of 2018-01-12, PELUX 1.0 has been released! The docs can be found
  - BT integration
  - [Publicly accessible](//pelux.io/jenkins/) CI
 
-## Metadata
+### Metadata
 * Version number: 1.0
 * Yocto release: morty and pyro
 * Qt version: 5.9.3
 
-## Changelog
+### Changelog
 This is the initial release of PELUX.
 
-## Known issues
+### Known issues
 * QtWebengine does not work in QtWayland on the Raspberry Pi 3. The browser app
   is therefore not functioning as intended.
 * When running the QtAS versions of the platform, there are no ttys allocated on
@@ -36,7 +36,7 @@ This is the initial release of PELUX.
   we have missed even though we've proofread them. Please point them out and we
   will fix them!
 
-## Artifacts
+### Artifacts
 * These release notes.
 * [pelux.xml](https://github.com/Pelagicore/pelux-manifests/blob/v1.0/pyro/pelux.xml)
   in PELUX Yocto Manifests repository, see below.
@@ -46,7 +46,7 @@ This is the initial release of PELUX.
 * The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/v1.0/) as
   pointed out below.
 
-## Branches and tags
+### Branches and tags
 * PELUX Yocto Manifests
     - URL: [https://github.com/Pelagicore/pelux-manifests](https://github.com/Pelagicore/pelux-manifests)
     - branch morty, tag v1.0/morty
@@ -64,7 +64,9 @@ This is the initial release of PELUX.
     - branch PELUX-1.0
     - tag v1.0
 
-# Build from source
+------------------------
+
+## Build from source
 To build PELUX from source, read the [relevant
 chapter](//pelux.io/software-factory/master/chapters/baseplatform/index.html) in
 the Software Factory.

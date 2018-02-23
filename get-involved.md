@@ -11,11 +11,9 @@ many ways to help. You can start by getting in touch with us on IRC.
 
 Join our IRC channel #PELUX on freenode, where most of the developers hang out.
 join the channel in a web browser:
-
-[https://kiwiirc.com/client/irc.freenode.net/?channel=#PELUX](https://kiwiirc.com/client/irc.freenode.net/?channel=#PELUX)
+<iframe style="border: 0; width: 100%; height: 600px;" src="https://kiwiirc.com/client/irc.freenode.net/#PELUX"></iframe>
 
 or with your IRC client:
-
 [irc://irc.freenode.net:6667/PELUX](irc://irc.freenode.net:6667/PELUX)
 
 ### IRC Logs

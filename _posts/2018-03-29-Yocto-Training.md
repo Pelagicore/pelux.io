@@ -16,5 +16,5 @@ As usual, the [Yocto reference
 manual](https://www.yoctoproject.org/docs/current/ref-manual/ref-manual.html) is
 the main source for everything in these slides.
 
-Download the [slides](assets/pdf/slides-yocto-pelux.pdf), they are released
+Download the [slides](/assets/pdf/slides-yocto-pelux.pdf), they are released
 under a CC-BY-SA 2.0 license.

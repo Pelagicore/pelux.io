@@ -29,18 +29,15 @@ have the necessary libraries installed.
 
 ## Governance
 
-This repository is maintained and governed by Pelagicore AB.
-
-Maintainer:
-
-- Richard Pannek <richard.pannek@pelagicore.com>
+This repository is maintained at https://github.com/Pelagicore/pelux.io
 
 ## License and Copyright
 
-Copyright &copy; Pelagicore AB 2017
+Copyright &copy; 2017 Pelagicore AB
+Copyright &copy; 2018 Luxoft Sweden AB
 
-This work is licensed under the Creative Commons
-Attribution-ShareAlike 4.0 International License. To view a copy of
-this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or
-send a letter to Creative Commons, PO Box 1866, Mountain View, CA
-94042, USA.
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License.
+
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.

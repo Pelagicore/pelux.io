@@ -6,7 +6,7 @@ categories: yocto qt webengine rpi wayland
 author: Florent Revest
 ---
 
-[Netpune UI's](https://doc-snapshots.qt.io/neptuneui/index.html) Browser
+[Netpune UI's](https://doc.qt.io/NeptuneUI/) Browser
 Application, embedded in PELUX Qt Automotive version by default, is written in
 QML using QtWebEngine components.
 

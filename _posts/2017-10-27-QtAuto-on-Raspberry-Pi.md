@@ -42,7 +42,7 @@ adding an option to the recipe solved the issue and we could see that we got the
 right drivers deployed on target. But we still got no graphics output!
 
 ### Starting Neptune UI
-[Neptune UI](https://doc-snapshots.qt.io/neptuneui/index.html) is the reference
+[Neptune UI](https://doc.qt.io/NeptuneUI/) is the reference
 UI for Qt Automotive Suite, and is run with the QtApplicationManager to leverage
 the power of Wayland compositing and apps. It seemed however, that when we
 started QtApplicationManager, the system chose the wrong Wayland driver for us,

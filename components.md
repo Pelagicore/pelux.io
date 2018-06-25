@@ -18,14 +18,14 @@ infrastructure for modern multi-process IVI architectures using Wayland
 composition and input event handling, while at the same time having the option
 to scale down to single-process setups for mid-range product variants, or for
 convenient native development on host platforms without Wayland. The Qt
-Application Manager supports you with app lifecylce management and isolating and
+Application Manager supports you with app lifecycle management and isolating and
 securing apps.
 
 ### QtIVI
 
 [QtIVI](https://doc.qt.io/QtIVI/) provides additional APIs commonly needed in
 automotive IVI or cluster systems. The APIs serve as a common interface between
-the QML frontend and middleware services. Since those APIs however differ
+the QML frontend and middleware services. Since those APIs, however, differ
 slightly from project to project, a particular emphasis is put on easy
 extensibility/adaptability. QtIVI supports development by providing
 infrastructure for having multiple backends (e.g. simulation and the real

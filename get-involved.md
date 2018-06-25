@@ -22,7 +22,7 @@ The IRC logs are hosted at: [/irclogs/](//pelux.io/irclogs/)
 
 ## Getting to the Code
 
-If you'd like to jump in to the code here are some links to repositories
+If you'd like to jump into the code here are some links to repositories
 connected to PELUX. Feel free to hack on these and send us your [pull
 requests](https://help.github.com/articles/about-pull-requests/).
 

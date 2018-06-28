@@ -4,13 +4,13 @@ title: Downloads
 permalink: /downloads/
 ---
 
-## PELUX 1.0
-As of 2018-01-12, PELUX 1.0 has been released! The docs can be found
-[here](//pelux.io/software-factory/v1.0/).
+## PELUX 2.0
+As of 2018-07-02, PELUX 2.0 has been released! The docs can be found
+[here](//pelux.io/software-factory/v2.0/).
 
 ### Main features
  - Derived from poky
- - Support for [Raspberry PI 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) and [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
+ - Support for [Raspberry PI 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/), [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html) and [Automotive Reference Platform](https://www.youtube.com/watch?v=XVF19cC98Xs)
  - Platform Development Kit (PDK)
  - Software Development Kit (SDK)
  - 2 flavours: with and without [Qt Automotive Suite](https://www1.qt.io/qt-automotive-suite/)
@@ -19,12 +19,16 @@ As of 2018-01-12, PELUX 1.0 has been released! The docs can be found
  - [Publicly accessible](//pelux.io/jenkins/) CI
 
 ### Metadata
-* Version number: 1.0
-* Yocto release: morty and pyro
-* Qt version: 5.9.3
+* Version number: 2.0
+* Yocto release: rocko
+* Qt version: 5.10
 
 ### Changelog
-This is the initial release of PELUX.
+* Adaptation to Yocto "Rocko" 2.4
+* Integration with Qt 5.10
+* [Automotive Reference Platform](https://www.youtube.com/watch?v=XVF19cC98Xs) support: hardware platform developed in-house by Luxoft
+* SOTA updates using [swupdate](https://github.com/sbabic/swupdate) with the help of [meta-swupdate](https://github.com/sbabic/meta-swupdate)
+* ACPI support for Intel NUC
 
 ### Known issues
 * QtWebengine does not work in QtWayland on the Raspberry Pi 3. The browser app
@@ -38,33 +42,35 @@ This is the initial release of PELUX.
 
 ### Artifacts
 * These release notes.
-* [pelux.xml](https://github.com/Pelagicore/pelux-manifests/blob/v1.0/pyro/pelux.xml)
+* [pelux.xml](https://github.com/Pelagicore/pelux-manifests/blob/v2.0/rocko/pelux.xml)
   in PELUX Yocto Manifests repository, see below.
 * The version of [PELUX Software Development
-  Environment](https://github.com/Pelagicore/pelux-sde/tree/v1.0) as pointed out
+  Environment](https://github.com/Pelagicore/pelux-sde/tree/v2.0) as pointed out
   below.
-* The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/v1.0/) as
+* The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/v2.0/) as
   pointed out below.
 
 ### Branches and tags
 * PELUX Yocto Manifests
     - URL: [https://github.com/Pelagicore/pelux-manifests](https://github.com/Pelagicore/pelux-manifests)
-    - branch morty, tag v1.0/morty
-    - branch pyro, tag v1.0/pyro
+    - branch rocko, tag v2.0/rocko
     - The same branch and tag scheme is used for the internal layers
       meta-bistro, meta-pelux and meta-template
 
 * PELUX Software Development Environment
     - URL: [https://github.com/Pelagicore/pelux-sde/](https://github.com/Pelagicore/pelux-sde/)
-    - branch PELUX-1.0
-    - tag v1.0
+    - branch PELUX-2.0
+    - tag v2.0
 
 * PELUX Software Factory Baseline
     - URL: [https://github.com/Pelagicore/software-factory](https://github.com/Pelagicore/software-factory)
-    - branch PELUX-1.0
-    - tag v1.0
+    - branch PELUX-2.0
+    - tag v2.0
 
 ------------------------
+
+## Older releases (not supported)
+* PELUX 1.0: v1.0, v1.0/morty and v1.0/pyro tags
 
 ## Build from source
 To build PELUX from source, read the [relevant

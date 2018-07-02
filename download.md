@@ -70,11 +70,12 @@ As of 2018-07-02, PELUX 2.0 has been released! The docs can be found
 ------------------------
 
 ## Older releases (not maintained)
+### PELUX 1.0
 * PELUX 1.0: v1.0, v1.0/morty and v1.0/pyro tags
-** [pelux.xml v1.0/pyro](https://github.com/Pelagicore/pelux-manifests/blob/v1.0/pyro/pelux.xml) in PELUX Yocto Manifests repository.
-** [pelux.xml v1.0/morty](https://github.com/Pelagicore/pelux-manifests/blob/v1.0/morty/pelux.xml) in PELUX Yocto Manifests repository.
-** [PELUX Software Development Environment v1.0](https://github.com/Pelagicore/pelux-sde/tree/v1.0)
-** The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/v1.0/)
+  - [pelux.xml v1.0/pyro](https://github.com/Pelagicore/pelux-manifests/blob/v1.0/pyro/pelux.xml) in PELUX Yocto Manifests repository.
+  - [pelux.xml v1.0/morty](https://github.com/Pelagicore/pelux-manifests/blob/v1.0/morty/pelux.xml) in PELUX Yocto Manifests repository.
+  - [PELUX Software Development Environment v1.0](https://github.com/Pelagicore/pelux-sde/tree/v1.0)
+  - The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/v1.0/)
 
 ## Build from source
 To build PELUX from source, read the [relevant

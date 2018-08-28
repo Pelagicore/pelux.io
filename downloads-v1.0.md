@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Downloads
+title: Old releases
 permalink: /downloads/v1.0/
 ---
 
 ## PELUX 1.0
-As of 2018-01-12, PELUX 1.0 has been released! The docs can be found
+PELUX 1.0 was released on 2018-01-12. The docs can be found
 [here](//pelux.io/software-factory/v1.0/).
 
 ### Main features

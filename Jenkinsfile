@@ -3,7 +3,7 @@ pipeline {
         dockerfile {
             /* There are resolution issues on the Jenkins server for pelux.io */
             // This is IP is hardcoded until the domain is updated to "New Jenkins"
-            args "--add-host=pelux.io:185.89.242.33"
+            args "--add-host=pelux.io:172.30.23.33"
         }
     }
 
@@ -42,7 +42,7 @@ pipeline {
         stage('Archive') {
             steps {
                 // Store the artifacts of the entire build
-                archive "_site/**/*"
+                archiveArtifacts artifacts: '_site/**/*', fingerprint: true
             }
         }
     }

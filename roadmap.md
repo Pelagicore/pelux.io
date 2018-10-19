@@ -20,7 +20,7 @@ The PELUX project aims to provide biannual releases. The first release was done
 in January 2018. For already released versions, see the [downloads](/downloads)
 page.
 
-### PELUX 3.0 [October 2018]
+### PELUX 3.0 [November 2018]
 Content of this release is under discussion. Tentatively the topics in focus will be:
 - Adaptation to Yocto "sumo" 2.5
 - Neptune UI 3

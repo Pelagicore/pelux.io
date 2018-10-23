@@ -70,7 +70,9 @@ As of 2018-07-02, PELUX 2.0 has been released! The docs can be found
 ------------------------
 
 ## Older releases (not maintained)
-- [PELUX 1.0](v1.0)
+{% for download in site.download %}
+  - <a href="{{ download.url }}">{{ download.title }}</a>
+{% endfor %}
 
 ## Build from source
 To build PELUX from source, read the [relevant

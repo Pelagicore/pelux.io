@@ -34,9 +34,9 @@ pipeline {
         }
 
         stage("Test") {
-           steps {
-               sh "bundle exec htmlproofer --url-ignore \"/pelux.io/downloads/\" _site"
-           }
+            steps {
+                sh "bundle exec htmlproofer _site"
+            }
         }
 
         stage('Archive') {

@@ -21,3 +21,6 @@ exclude:
   - Jenkinsfile
   - Dockerfile
   - README.md
+collections:
+  download:
+    output: true

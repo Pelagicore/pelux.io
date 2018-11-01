@@ -2,8 +2,10 @@ pipeline {
     agent {
         dockerfile {
             /* There are resolution issues on the Jenkins server for pelux.io */
-            // This is IP is hardcoded until the domain is updated to "New Jenkins"
-            args "--add-host=pelux.io:172.30.23.33"
+
+            /* This domain is temporarily changed to pelux.xyz until the pelux.io is
+               changed to point to the "New Jenkins" server */
+            args "--add-host=pelux.xyz:${env.JENKINS_IP}"
         }
     }
 

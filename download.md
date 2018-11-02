@@ -6,7 +6,7 @@ permalink: /downloads/
 
 ## PELUX 2.0
 As of 2018-07-02, PELUX 2.0 has been released! The docs can be found
-[here](//pelux.io/software-factory/v2.0/).
+[here](//pelux.io/software-factory/PELUX-2.0/).
 
 ### Main features
  - Derived from poky
@@ -47,7 +47,7 @@ As of 2018-07-02, PELUX 2.0 has been released! The docs can be found
 * The version of [PELUX Software Development
   Environment](https://github.com/Pelagicore/pelux-sde/tree/v2.0) as pointed out
   below.
-* The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/v2.0/) as
+* The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/PELUX-2.0/) as
   pointed out below.
 
 ### Branches and tags
@@ -76,5 +76,5 @@ As of 2018-07-02, PELUX 2.0 has been released! The docs can be found
 
 ## Build from source
 To build PELUX from source, read the [relevant
-chapter](//pelux.io/software-factory/master/chapters/baseplatform/index.html) in
+chapter](//pelux.io/software-factory/PELUX-2.0/chapters/baseplatform/index.html) in
 the Software Factory.

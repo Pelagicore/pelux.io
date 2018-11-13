@@ -4,9 +4,9 @@ title: Downloads
 permalink: /downloads/
 ---
 
-## PELUX 2.0
-As of 2018-07-02, PELUX 2.0 has been released! The docs can be found
-[here](//pelux.io/software-factory/PELUX-2.0/).
+## PELUX 3.0
+As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
+[here](//pelux.io/software-factory/PELUX-3.0/).
 
 ### Main features
  - Derived from poky
@@ -19,16 +19,14 @@ As of 2018-07-02, PELUX 2.0 has been released! The docs can be found
  - [Publicly accessible](//pelux.io/jenkins/) CI
 
 ### Metadata
-* Version number: 2.0
-* Yocto release: rocko
-* Qt version: 5.10
+* Version number: 3.0
+* Yocto release: sumo
+* Qt version: 5.11
 
 ### Changelog
-* Adaptation to Yocto "Rocko" 2.4
-* Integration with Qt 5.10
-* [Automotive Reference Platform](https://www.youtube.com/watch?v=XVF19cC98Xs) support: hardware platform developed in-house by Luxoft
-* SOTA updates using [swupdate](https://github.com/sbabic/swupdate) with the help of [meta-swupdate](https://github.com/sbabic/meta-swupdate)
-* ACPI support for Intel NUC
+* Adaptation to Yocto "Sumo" 2.5
+* Integration with Qt 5.11
+* Neptune 3 UI
 
 ### Known issues
 * QtWebengine does not work in QtWayland on the Raspberry Pi 3. The browser app
@@ -41,40 +39,57 @@ As of 2018-07-02, PELUX 2.0 has been released! The docs can be found
   will fix them!
 
 ### Artifacts
+
+#### Images
+
+| Hardware Platform | Variant | Size |
+| ----------------- | ------- | ---- |
+| Intel x86-64      | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-minimal-dev-intel-corei7-64.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-qtauto-neptune-dev-intel-corei7-64.wic) | 3.9 Gb <br> 5.5 Gb |
+| Automotive Reference Platform | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-minimal-dev-arp.wic) <br> [Qt Auto Neptune]()  | 3.9 Gb <br> 5.5 Gb |
+| Raspberry Pi 3    | [Minimal]() <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-qtauto-neptune-dev-raspberrypi3.rootfs.rpi-sdimg) | Gb <br> 1.6 Gb |
+| Qemu              | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/qemu/core-image-pelux-minimal-dev-qemux86-64.rootfs.ext4) | 1.1 Gb |
+
+#### SDK
+
+| Hardware Platform | Size |
+| ----------------- | ---- |
+| [Intel x86-64](https://pelux.io/artifacts/pelux/3.0/binaries/intel/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.0.sh) | 2.1 Gb |
+| [Automotive Reference Platform](https://pelux.io/artifacts/pelux/3.0/binaries/arp/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.0.sh) | 2.1 Gb |
+| [Raspberry Pi 3]() | |
+
 * These release notes.
-* [pelux.xml](https://github.com/Pelagicore/pelux-manifests/blob/v2.0/rocko/pelux.xml)
+* [pelux.xml](https://github.com/Pelagicore/pelux-manifests/blob/v3.0/sumo/pelux.xml)
   in PELUX Yocto Manifests repository, see below.
 * The version of [PELUX Software Development
-  Environment](https://github.com/Pelagicore/pelux-sde/tree/v2.0) as pointed out
-  below.
-* The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/PELUX-2.0/) as
+  Environment](https://github.com/Pelagicore/pelux-sde/tree/v3.0) as pointed out below.
+* The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/PELUX-3.0/) as
   pointed out below.
 
 ### Branches and tags
 * PELUX Yocto Manifests
     - URL: [https://github.com/Pelagicore/pelux-manifests](https://github.com/Pelagicore/pelux-manifests)
-    - branch rocko, tag v2.0/rocko
+    - branch sumo, tag v3.0/sumo
     - The same branch and tag scheme is used for the internal layers
       meta-bistro, meta-pelux and meta-template
 
 * PELUX Software Development Environment
     - URL: [https://github.com/Pelagicore/pelux-sde/](https://github.com/Pelagicore/pelux-sde/)
-    - branch PELUX-2.0
-    - tag v2.0
+    - branch PELUX-3.0
+    - tag v3.0
 
 * PELUX Software Factory Baseline
     - URL: [https://github.com/Pelagicore/software-factory](https://github.com/Pelagicore/software-factory)
-    - branch PELUX-2.0
-    - tag v2.0
+    - branch PELUX-3.0
+    - tag v3.0
 
 ------------------------
 
-## Older releases (not maintained)
+## Older releases
 {% for download in site.download %}
   - <a href="{{ download.url }}">{{ download.title }}</a>
 {% endfor %}
 
 ## Build from source
 To build PELUX from source, read the [relevant
-chapter](//pelux.io/software-factory/PELUX-2.0/chapters/baseplatform/index.html) in
+chapter](//pelux.io/software-factory/PELUX-3.0/chapters/baseplatform/index.html) in
 the Software Factory.

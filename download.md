@@ -50,18 +50,18 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
 
 | Hardware Platform | Variant | Size |
 | ----------------- | ------- | ---- |
-| Intel x86-64      | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-minimal-dev-intel-corei7-64.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-qtauto-neptune-dev-intel-corei7-64.wic) | 3.9 Gb <br> 5.5 Gb |
-| Automotive Reference Platform | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-minimal-dev-arp.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-qtauto-neptune-dev-arp.wic)  | 3.9 Gb <br> 5.5 Gb |
-| Raspberry Pi 3    | [Minimal]() <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-qtauto-neptune-dev-raspberrypi3.rootfs.rpi-sdimg) | Gb <br> 1.6 Gb |
-| Qemu              | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/qemu/core-image-pelux-minimal-dev-qemux86-64.rootfs.ext4) | 1.1 Gb |
+| Intel x86-64      | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-minimal-dev-intel-corei7-64.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-qtauto-neptune-dev-intel-corei7-64.wic) | 3.9 GB <br> 5.5 GB |
+| Automotive Reference Platform | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-minimal-dev-arp.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-qtauto-neptune-dev-arp.wic)  | 3.9 GB <br> 5.5 GB |
+| Raspberry Pi 3    | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-minimal-dev-raspberrypi3-20181119145443.rootfs.rpi-sdimg) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-qtauto-neptune-dev-raspberrypi3.rootfs.rpi-sdimg) | 1.1 GB <br> 1.6 GB |
+| Qemu              | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/qemu/core-image-pelux-minimal-dev-qemux86-64.rootfs.ext4) | 1.1 GB |
 
 #### SDK
 
 | Hardware Platform | Size |
 | ----------------- | ---- |
-| [Intel x86-64](https://pelux.io/artifacts/pelux/3.0/binaries/intel/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.0.sh) | 2.1 Gb |
-| [Automotive Reference Platform](https://pelux.io/artifacts/pelux/3.0/binaries/arp/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.0.sh) | 2.1 Gb |
-| [Raspberry Pi 3]() | |
+| [Intel x86-64](https://pelux.io/artifacts/pelux/3.0/binaries/intel/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.0.sh) | 2.1 GB |
+| [Automotive Reference Platform](https://pelux.io/artifacts/pelux/3.0/binaries/arp/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.0.sh) | 2.1 GB |
+| [Raspberry Pi 3](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-cortexa7hf-neon-vfpv4-toolchain-3.0.sh) | 2.0 GB |
 
 * These release notes.
 * [pelux.xml](https://github.com/Pelagicore/pelux-manifests/blob/v3.0/sumo/pelux.xml)

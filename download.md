@@ -40,12 +40,18 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
 
 ### Artifacts
 
+#### Sources
+
+|Sources for all the images| Commit hash |
+| ------------------------ | ----------- |
+| [Source release](https://pelux.io/artifacts/pelux/3.0/sources/source-release/) | 94fbdfba8af7ae23c6f64e7600185cfe4b19818d |
+
 #### Images
 
 | Hardware Platform | Variant | Size |
 | ----------------- | ------- | ---- |
 | Intel x86-64      | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-minimal-dev-intel-corei7-64.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-qtauto-neptune-dev-intel-corei7-64.wic) | 3.9 Gb <br> 5.5 Gb |
-| Automotive Reference Platform | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-minimal-dev-arp.wic) <br> [Qt Auto Neptune]()  | 3.9 Gb <br> 5.5 Gb |
+| Automotive Reference Platform | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-minimal-dev-arp.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-qtauto-neptune-dev-arp.wic)  | 3.9 Gb <br> 5.5 Gb |
 | Raspberry Pi 3    | [Minimal]() <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-qtauto-neptune-dev-raspberrypi3.rootfs.rpi-sdimg) | Gb <br> 1.6 Gb |
 | Qemu              | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/qemu/core-image-pelux-minimal-dev-qemux86-64.rootfs.ext4) | 1.1 Gb |
 

@@ -5,19 +5,32 @@
 layout: home
 ---
 
-The PELUX Base Platform is a Linux platform that is used to kick-start a project for automotive software
-development. The PELUX Base Platform software architecture and design are optimized to secure the shortest path
-from silicon to pixel and thereby provides optimal patterns to deliver a stunning in-vehicle infotainment solution.
+# PELUX, an Automotive Reference Integration Platform
 
-Though PELUX is not limited to infotainment systems. It aims to target other converged automotive systems,
-like the advanced driver-assistance systems (ADAS) and telematics units.
+PELUX is an agnostic reference integration platform that enables you to build
+and develop automotive Linux-based systems without vendor lock-in. As an open
+source solution accelerator, PELUX helps you prototype and create
+production-ready, converged automotive systems, including advanced
+driver-assistance systems (ADAS), telematics units and in-vehicle infotainment
+systems.
 
-PELUX leverages well known open source projects such as Linux, Yocto/OpenEmbedded and GENIVI in order to provide
-a base development platform. The base development platform is complemented by project blueprints and documentation.
+The platform, built with Yocto, is complemented with the Luxoft Software
+Factory (SWF), which provides tools and processes for more effective development.
+This includes project blueprints and documentation for embedded Linux devices,
+which are tailored specifically to the needs in the automotive industry. PELUX is
+designed to easily integrate leading third-party open source or proprietary
+automotive-grade components, including open source projects like GENIVI&reg; and
+AGL. As a reference UI, PELUX also integrates components from Qt Automotive
+Suite.
 
-The project has one main goal in mind - to provide a leading development experience in Embedded Linux device creation,
-tailored to automotive needs. 
+PELUX is founded on GENIVI&reg; specifications and is certified for compliance,
+with a guarantee that it will follow future open source compliance specification
+releases. Our internationally recognized expertise in FOSS license compliance
+allows PELUX to be used to create new business models with confidence. Luxoft
+understands how secure the entire supply chain of complex automotive software
+projects must be, with each incorporating various commercial and open source
+licenses. Our broad knowledge of best practices from the license compliance
+community enables visibility into the commercialization process of PELUX and our
+software development processes. These tools and know-how are embedded in PELUX
+and the Luxoft Software Factory.
 
-![PELUX Boxes](assets/imgs/pelux-boxes.png)
-
-Please [join us on IRC](get-involved) and we can answer all the questions you might have.

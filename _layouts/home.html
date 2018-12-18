@@ -8,20 +8,24 @@ layout: default
 
   {% if site.posts.size > 0 %}
 
-  <h1 class="page-heading">Blogposts</h1>
+  <h1 class="page-heading">Latest blog posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+      {% if forloop.index < 4 %}
+        <li>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
+
+  <p>More posts are found <a href="{{ "/blogposts" | relative_url }}">here</a></p>
 
   <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 

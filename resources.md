@@ -9,7 +9,7 @@ The latest PELUX documentation is baked in into the [Software Factory
 documentation](//pelux.io/software-factory/).
 
 For documentation regarding a specific release of PELUX, see the
-[downloads](/downloads) page.
+[Releases](/releases) page.
 
 ## PELUX in use
 At Luxoft, we are using PELUX as the base for several customer projects. Are you

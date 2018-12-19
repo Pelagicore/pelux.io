@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Downloads
-permalink: /downloads/
+title: Releases
+permalink: /releases/
 ---
 
 ## PELUX 3.0

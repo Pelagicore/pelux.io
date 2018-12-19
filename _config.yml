@@ -6,7 +6,7 @@ license: Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/"
 repo: <a href="https://github.com/pelagicore/pelux.io">Source</a> of this website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://pelux.io
-twitter_username: pelagicore
+twitter_username: luxoft
 github_username:  pelagicore
 
 # Build settings

@@ -55,7 +55,7 @@ requests](https://help.github.com/articles/about-pull-requests/).
                 <a href="https://github.com/Pelagicore/software-factory">software-factory</a>
             </td>
             <td>
-                PELUX Software Factory documentation repository.
+                PELUX Development Handbook repository.
             </td>
         </tr>
     </tbody>

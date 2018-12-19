@@ -34,7 +34,7 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
 * When running the QtAS versions of the platform, there are no ttys allocated on
   the terminal. To get a terminal, ssh to the target. If you don't know the IP
   address of your target, use arp-scan to search for it on your network.
-* There is going to be minor hickups in the PELUX Software Factory Baseline that
+* There is going to be minor hickups in the PELUX Development Handbook that
   we have missed even though we've proofread them. Please point them out and we
   will fix them!
 
@@ -68,7 +68,7 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
   in PELUX Yocto Manifests repository, see below.
 * The version of [PELUX Software Development
   Environment](https://github.com/Pelagicore/pelux-sde/tree/v3.0) as pointed out below.
-* The version of [PELUX Software Factory Baseline](//pelux.io/software-factory/PELUX-3.0/) as
+* The version of [PELUX Development Handbook](//pelux.io/software-factory/PELUX-3.0/) as
   pointed out below.
 
 ### Branches and tags
@@ -83,7 +83,7 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
     - branch PELUX-3.0
     - tag v3.0
 
-* PELUX Software Factory Baseline
+* PELUX Development Handbook
     - URL: [https://github.com/Pelagicore/software-factory](https://github.com/Pelagicore/software-factory)
     - branch PELUX-3.0
     - tag v3.0
@@ -98,4 +98,4 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
 ## Build from source
 To build PELUX from source, read the [relevant
 chapter](//pelux.io/software-factory/PELUX-3.0/chapters/baseplatform/index.html) in
-the Software Factory.
+the Development Handbook.

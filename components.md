@@ -64,9 +64,9 @@ Layers maintained by the PELUX project:
   recipes and components that can be used as examples when starting your own R&D
   work.
 
-## Software Factory
+## Development Handbook
 
-The [Software Factory
+The [Development Handbook
 documentation](//pelux.io/software-factory/) contains most of
 the documentation around how to use PELUX and how to set up a new project.
 

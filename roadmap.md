@@ -17,6 +17,6 @@ well as extensive documentation.
 ## Milestones
 
 The PELUX project aims to provide biannual releases. The first release was done
-in January 2018. For already released versions, see the [downloads](/downloads)
+in January 2018. For already released versions, see the [Releases](/releases)
 page.
 

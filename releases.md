@@ -10,13 +10,14 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
 
 ### Main features
  - Derived from poky
- - Support for [Raspberry PI 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/), [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html) and [Automotive Reference Platform](https://www.youtube.com/watch?v=XVF19cC98Xs)
- - Platform Development Kit (PDK)
+ - Support for [Raspberry Pi 3B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/), [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html) and [Automotive Reference Platform](https://www.youtube.com/watch?v=XVF19cC98Xs)
  - Software Development Kit (SDK)
  - 2 flavours: with and without [Qt Automotive Suite](https://www1.qt.io/qt-automotive-suite/)
- - DLT integration
- - BT integration
- - [Publicly accessible](//pelux.io/jenkins/) CI
+ - [Diagnostic Log and Trace (DLT)](https://github.com/GENIVI/dlt-daemon)
+   supported. Connect [dlt-viewer](https://github.com/GENIVI/dlt-viewer) to
+   target and view the logs.
+ - Connman network manager with Ethernet, WiFi and Bluetooth technologies
+ - [Publicly accessible](//pelux.io/jenkins/) CI server
 
 ### Metadata
 * Version number: 3.0
@@ -29,14 +30,22 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
 * Neptune 3 UI
 
 ### Known issues
-* QtWebengine does not work in QtWayland on the Raspberry Pi 3. The browser app
-  is therefore not functioning as intended.
 * When running the QtAS versions of the platform, there are no ttys allocated on
   the terminal. To get a terminal, ssh to the target. If you don't know the IP
-  address of your target, use arp-scan to search for it on your network.
-* There is going to be minor hickups in the PELUX Development Handbook that
-  we have missed even though we've proofread them. Please point them out and we
-  will fix them!
+  address of your target, use arp-scan to search for it on your network. You can
+  also select the Qt button at the bottom right corner of the home screen and
+  scroll down to see the IP address.
+* Rasperry Pi 3 (Qt Auto Neptune variant):
+  - There are widgets and applications which are not functional. A workaround
+    is to force the UI into single process mode. Add argument
+    ```--force-single-process``` to neptune3-ui in the unit file for the neptune
+    service. You can either edit source file
+    ```sources/meta-pelux/layers/b2qt/recipes-qt/automotive/neptune3-ui/neptune.service```
+    before building the image, or login to target via ssh and edit file
+    ```/lib/systemd/system/neptune.service``` followed by a reboot.
+  - The Neptune 3 UI is not running as smoothly as the former Neptune UI on
+    Rasperry Pi 3, but on NUC it's not an issue.
+
 
 ### Artifacts
 
@@ -52,7 +61,7 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
 | ----------------- | ------- | ---- |
 | Intel x86-64      | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-minimal-dev-intel-corei7-64.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-qtauto-neptune-dev-intel-corei7-64.wic) | 3.9 GB <br> 5.5 GB |
 | Automotive Reference Platform | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-minimal-dev-arp.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-qtauto-neptune-dev-arp.wic)  | 3.9 GB <br> 5.5 GB |
-| Raspberry Pi 3    | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-minimal-dev-raspberrypi3-20181119145443.rootfs.rpi-sdimg) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-qtauto-neptune-dev-raspberrypi3.rootfs.rpi-sdimg) | 1.1 GB <br> 1.6 GB |
+| Raspberry Pi 3    | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-minimal-dev-raspberrypi3-20181119145443.rootfs.rpi-sdimg) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-qtauto-neptune-dev-raspberrypi3.rootfs.rpi-sdimg) (with known limitations) | 1.1 GB <br> 1.6 GB |
 | Qemu              | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/qemu/core-image-pelux-minimal-dev-qemux86-64.rootfs.ext4) | 1.1 GB |
 
 #### SDK

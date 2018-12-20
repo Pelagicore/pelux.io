@@ -36,10 +36,10 @@ requests](https://help.github.com/articles/about-pull-requests/).
     <tbody>
         <tr>
             <td>
-                <a href="https://github.com/Pelagicore/pelux-manifests">PELUX baseline manifests</a>
+                <a href="https://github.com/Pelagicore/pelux-manifests">pelux-manifests</a>
             </td>
             <td>
-                The entry point to the PELUX build system.
+                Entry point to the build system for PELUX reference integration platform.
             </td>
         </tr>
 	<tr>

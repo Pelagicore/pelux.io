@@ -37,7 +37,7 @@ pipeline {
 
         stage("Test") {
             steps {
-                sh "bundle exec htmlproofer _site"
+                sh "bundle exec htmlproofer --disable-external ./_site"
             }
         }
 

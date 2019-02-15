@@ -100,8 +100,8 @@ As of 2018-11-16, PELUX 3.0 has been released! Documentation can be found
 ------------------------
 
 ## Older releases
-{% for download in site.download %}
-  - <a href="{{ download.url }}">{{ download.title }}</a>
+{% for release in site.release %}
+  - <a href="{{ release.url }}">{{ release.title }}</a>
 {% endfor %}
 
 ## Build from source

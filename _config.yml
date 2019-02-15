@@ -22,5 +22,5 @@ exclude:
   - Dockerfile
   - README.md
 collections:
-  download:
+  release:
     output: true

@@ -1,6 +1,8 @@
 # pelux.io
 
-Source code repo for the pelux.io website
+Source code repo for the https://pelux.io website.
+
+Maintained at https://github.com/Pelagicore/pelux.io
 
 ## Guidelines
 
@@ -27,17 +29,10 @@ browser.
 If you get errors when building native extensions with bundle, make sure you
 have the necessary libraries installed.
 
-## Governance
-
-This repository is maintained and governed by Pelagicore AB.
-
-Maintainer:
-
-- Richard Pannek <richard.pannek@pelagicore.com>
-
 ## License and Copyright
 
-Copyright &copy; Pelagicore AB 2017
+Copyright &copy; 2017 Pelagicore AB
+Copyright &copy; 2018-2019 Luxoft Sweden AB
 
 This work is licensed under the Creative Commons
 Attribution-ShareAlike 4.0 International License. To view a copy of

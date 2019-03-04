@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Docs
-external-link: //pelux.io/software-factory
+title: Handbook
+permalink: /documentation/
 ---
 
-This content will never be shown, the page is just an external link
+{% include_relative _layouts/swf_layout.html %}

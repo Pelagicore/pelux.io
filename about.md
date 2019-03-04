@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-#external-link: //pelux.io/software-factory
 permalink: /about/
 ---
 

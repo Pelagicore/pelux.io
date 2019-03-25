@@ -5,7 +5,7 @@ permalink: /resources/
 ---
 
 ## Documentation
-The latest PELUX documentation is baked in into the [Development Handbook
+The latest PELUX documentation is integrated into the [Development Handbook
 documentation](//pelux.io/software-factory/).
 
 For documentation regarding a specific release of PELUX, see the

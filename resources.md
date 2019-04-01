@@ -11,6 +11,10 @@ documentation](//pelux.io/software-factory/).
 For documentation regarding a specific release of PELUX, see the
 [Releases](/releases) page.
 
+## Architecture
+The latest PELUX architecture documentation is integrated into the [Pelux
+Architecture Documentation](//pelux.io/pelux-architecture/).
+
 ## PELUX in use
 At Luxoft, we are using PELUX as the base for several customer projects. Are you
 using PELUX and want to show it here? [Contact us](mailto:contact@pelux.io)!

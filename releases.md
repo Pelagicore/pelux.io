@@ -45,30 +45,30 @@ As of 2019-03-29, PELUX 3.1 has been released! Documentation can be found
 
 |Sources for all the images| Commit hash |
 | ------------------------ | ----------- |
-| [Source release](https://pelux.io/artifacts/pelux/3.0/sources/source-release/) | 94fbdfba8af7ae23c6f64e7600185cfe4b19818d |
+| [Source release](https://pelux.io/artifacts/pelux/3.1/sources/source-release/) | 6266e8bcb8247d54b32119eefc72e93687b693be |
 
 #### Images
 
 | Hardware Platform | Variant | Size |
 | ----------------- | ------- | ---- |
-| Intel x86-64      | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-minimal-dev-intel-corei7-64.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/intel/core-image-pelux-qtauto-neptune-dev-intel-corei7-64.wic) | 3.9 GB <br> 5.4 GB |
-| ARP               | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-minimal-arp.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/arp/core-image-pelux-qtauto-neptune-dev-arp.wic)  | 3.9 GB <br> 5.4 GB |
-| Raspberry Pi 3    | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-minimal-dev-raspberrypi3-20181119145443.rootfs.rpi-sdimg) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/core-image-pelux-qtauto-neptune-dev-raspberrypi3.rootfs.rpi-sdimg) (with known limitations) | 1.1 GB <br> 1.6 GB |
-| Qemu              | [Minimal](https://pelux.io/artifacts/pelux/3.0/binaries/qemu/core-image-pelux-minimal-dev-qemux86-64.rootfs.ext4) | 1.1 GB |
+| Intel x86-64      | [Minimal](https://pelux.io/artifacts/pelux/3.1/binaries/intel/core-image-pelux-minimal-dev-intel-corei7-64.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.1/binaries/intel/core-image-pelux-qtauto-neptune-dev-intel-corei7-64.wic) | 3.9 GB <br> 5.4 GB |
+| ARP               | [Minimal](https://pelux.io/artifacts/pelux/3.1/binaries/arp/core-image-pelux-minimal-dev-arp.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.1/binaries/arp/core-image-pelux-qtauto-neptune-dev-arp.wic)  | 3.9 GB <br> 5.4 GB |
+| Raspberry Pi 3    | [Minimal](https://pelux.io/artifacts/pelux/3.1/binaries/rpi3/core-image-pelux-minimal-dev-raspberrypi3.rpi-sdimg) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/3.1/binaries/rpi3/core-image-pelux-qtauto-neptune-dev-raspberrypi3.rpi-sdimg) (with known limitations) | 1.1 GB <br> 1.6 GB |
+| Qemu              | [Minimal](https://pelux.io/artifacts/pelux/3.1/binaries/qemu/core-image-pelux-minimal-dev-qemux86-64.ext4) | 1.1 GB |
 
 #### SDK
 
 | Hardware Platform | Size |
 | ----------------- | ---- |
-| [Intel x86-64](https://pelux.io/artifacts/pelux/3.0/binaries/intel/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.0.sh) | 2.2 GB |
-| [Automotive Reference Platform](https://pelux.io/artifacts/pelux/3.0/binaries/arp/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.0.sh) | 2.2 GB |
-| [Raspberry Pi 3](https://pelux.io/artifacts/pelux/3.0/binaries/rpi3/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-cortexa7hf-neon-vfpv4-toolchain-3.0.sh) | 1.7 GB |
+| [Intel x86-64](https://pelux.io/artifacts/pelux/3.1/binaries/intel/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.1.sh) | 2.2 GB |
+| [Automotive Reference Platform](https://pelux.io/artifacts/pelux/3.1/binaries/arp/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-corei7-64-toolchain-3.1.sh) | 2.2 GB |
+| [Raspberry Pi 3](https://pelux.io/artifacts/pelux/3.1/binaries/rpi3/pelux-glibc-x86_64-core-image-pelux-qtauto-neptune-dev-cortexa7hf-neon-vfpv4-toolchain-3.1.sh) | 1.7 GB |
 
 * These release notes.
-* [pelux.xml](https://github.com/Pelagicore/pelux-manifests/blob/v3.0/sumo/pelux.xml)
+* [pelux.xml](https://github.com/Pelagicore/pelux-manifests/blob/v3.1/sumo/pelux.xml)
   in PELUX Yocto Manifests repository, see below.
 * The version of [PELUX Software Development
-  Environment](https://github.com/Pelagicore/pelux-sde/tree/v3.0) as pointed out below.
+  Environment](https://github.com/Pelagicore/pelux-sde/tree/PELUX-3.1) as pointed out below.
 * The version of [PELUX Development Handbook](//pelux.io/software-factory/PELUX-3.0/) as
   pointed out below.
 

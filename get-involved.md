@@ -5,20 +5,14 @@ permalink: /get-involved/
 ---
 
 If you're interested in getting involved in the PELUX development, there are
-many ways to help. You can start by getting in touch with us on IRC.
+many ways to help. You can start by getting in touch with us by subscribing to
+our mailing list.
 
-## IRC
+## Public mailing list
 
-Join our IRC channel #PELUX on freenode, where most of the developers hang out.
-join the channel in a web browser:
-<iframe style="border: 0; width: 100%; height: 600px;" src="https://kiwiirc.com/client/irc.freenode.net/#PELUX"></iframe>
+Any question regarding PELUX development, can be sent to our mailing list by visiting [mail.pelux.io](https://mail.pelux.io) and subscribing on the list. 
 
-or with your IRC client:
-[irc://irc.freenode.net:6667/PELUX](irc://irc.freenode.net:6667/PELUX)
-
-### IRC Logs
-
-The IRC logs are hosted at: [/irclogs/](//pelux.io/irclogs/)
+<iframe style="border: 0; width: 100%; height: 600px;" src="https://mail.pelux.io"></iframe>
 
 ## Getting to the Code
 

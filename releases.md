@@ -48,9 +48,9 @@ As of 2019-07-29, PELUX 4.0 has been released! Documentation can be found
 
 | Hardware Platform | Variant | Size |
 | ----------------- | ------- | ---- |
-| Intel x86-64      | [Minimal](https://pelux.io/artifacts/pelux/4.0/binaries/intel/core-image-pelux-minimal-intel-corei7-64.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/4.0/binaries/intel/core-image-pelux-qtauto-neptune-dev-intel-corei7-64.wic) | 7.9 GB <br> 7.9 GB |
-| ARP               | [Minimal](https://pelux.io/artifacts/pelux/4.0/binaries/arp/core-image-pelux-minimal-arp.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/4.0/binaries/arp/core-image-pelux-qtauto-neptune-dev-arp.wic) | 7.9 GB <br> 7.9 GB |
-| Raspberry Pi 3    | [Minimal](https://pelux.io/artifacts/pelux/4.0/binaries/rpi3/core-image-pelux-minimal-raspberrypi3.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/4.0/binaries/rpi3/core-image-pelux-qtauto-neptune-dev-raspberrypi3.rpi-sdimg) | 4.4 GB <br> 3.8 GB |
+| Intel x86-64      | [Minimal](https://pelux.io/artifacts/pelux/4.0/binaries/intel/core-image-pelux-minimal-intel-corei7-64.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/4.0/binaries/intel/core-image-pelux-qtauto-neptune-intel-corei7-64.wic) | 7.9 GB <br> 7.9 GB |
+| ARP               | [Minimal](https://pelux.io/artifacts/pelux/4.0/binaries/arp/core-image-pelux-minimal-arp.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/4.0/binaries/arp/core-image-pelux-qtauto-neptune-arp.wic) | 7.9 GB <br> 7.9 GB |
+| Raspberry Pi 3    | [Minimal](https://pelux.io/artifacts/pelux/4.0/binaries/rpi3/core-image-pelux-minimal-raspberrypi3.wic) <br> [Qt Auto Neptune](https://pelux.io/artifacts/pelux/4.0/binaries/rpi3/core-image-pelux-qtauto-neptune-raspberrypi3.wic) | 4.4 GB <br> 3.8 GB |
 | QEMU              | [Minimal](https://pelux.io/artifacts/pelux/4.0/binaries/qemu/core-image-pelux-minimal-dev-qemux86-64.ext4) | 1.1 GB |
 
 #### SDK

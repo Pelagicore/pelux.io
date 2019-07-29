@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 4.0
+title: Releases
 permalink: /releases/
 ---
 

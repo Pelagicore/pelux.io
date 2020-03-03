@@ -27,4 +27,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Checks your resulting site to ensure all links and images exist
-gem "html-proofer", "~>3.8.0"
+gem "html-proofer", "~>3.15.1"
